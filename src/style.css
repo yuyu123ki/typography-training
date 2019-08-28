@@ -1,5 +1,8 @@
 html,
 body {
-  padding: 20px;
-  margin: 0px;
+  scroll-behavior: smooth;
+}
+h3::before {
+  content: counter(section) ". ";
+  counter-increment: section;
 }
