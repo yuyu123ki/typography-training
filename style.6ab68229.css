@@ -1,0 +1,2 @@
+body,html{scroll-behavior:smooth}h3:before{content:counter(section) ". ";counter-increment:section}
+/*# sourceMappingURL=/style.6ab68229.css.map */
