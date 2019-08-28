@@ -3,4 +3,4 @@ module.exports = "<h1 id=\"不思議の国のアリス\">不思議の国のア�
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=t(require("./alice.md"));function t(e){return e&&e.__esModule?e:{default:e}}document.getElementById("story").insertAdjacentHTML("afterBegin",e.default.split(/(?=<h3[^>]*>)/g).map(function(e,t){return t?'<section class="container">'.concat(e,"</section>"):e}).join(""));
 },{"./alice.md":"g8O0"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.a7d5370d.js.map
+//# sourceMappingURL=fix-typography-training/src.a7d5370d.js.map
