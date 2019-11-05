@@ -6,3 +6,51 @@ h3::before {
   content: counter(section) ". ";
   counter-increment: section;
 }
+
+article h1 {
+  font-size: 34px;
+  line-height: 1.618em;
+  text-align: center;
+}
+
+article h2 {
+  font-size: 27px;
+  line-height: 1.618em;
+  text-align: center;
+}
+
+article p {
+  text-align: center;
+}
+
+pre {
+  margin-top: 30px;
+  line-height: 1.618em;
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+}
+
+section p {
+  text-align: left;
+}
+
+.container h3 {
+  margin-top: 50px;
+  font-size: 21px;
+  line-height: 1.618em;
+}
+
+section img {
+  text-align: center;
+}
+
+p{
+  line-height: 1.618em;
+}
+img{
+  width:300px;
+}
