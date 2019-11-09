@@ -1,41 +1,54 @@
 html,
-<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
 body {
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
+  font-size: 14px;
+  letter-spacing: 0.4px;
 }
+
+p {
+  margin-top: 15px;
+  line-height: 1.65rem;
+}
+
+img {
+  height: 370px;
+}
+
 h3::before {
   content: counter(section) ". ";
   counter-increment: section;
 }
 
 article h1 {
-  font-size: 34px;
-  line-height: 1.618em;
+  font-size: 2.5rem;
+  line-height: calc(1.618rem * 1.618 * 1.618);
   text-align: center;
 }
 
 article h2 {
-  font-size: 27px;
-  line-height: 1.618em;
+  font-size: 2rem;
+  line-height: calc(1.618rem * 1.618);
   text-align: center;
 }
-
 article p {
   text-align: center;
 }
 
 pre {
-  margin-top: 30px;
-  line-height: 1.618em;
   padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
+  padding-left: 15px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-bottom: 9px;
+  margin-left: auto;
+  font-family: "Sawarabi Gothic", sans-serif;
+  line-height: 1.57rem;
 }
 
 section p {
+  margin-top: 19px;
   text-align: left;
 }
 
@@ -49,11 +62,5 @@ section img {
   text-align: center;
 }
 
-p{
-  line-height: 1.618em;
-}
-img{
-  width:300px;
-}
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
