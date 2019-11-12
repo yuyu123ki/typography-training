@@ -8,12 +8,12 @@ body {
 }
 
 p {
-  margin-top: 15px;
+  margin-bottom: 19px;
   line-height: 1.65rem;
 }
 
 img {
-  height: 370px;
+  height: 368px;
 }
 
 h3::before {
@@ -41,25 +41,28 @@ pre {
   padding-left: 15px;
   margin-top: 25px;
   margin-right: auto;
-  margin-bottom: 9px;
+  margin-bottom: 49px;
   margin-left: auto;
   font-family: "Sawarabi Gothic", sans-serif;
   line-height: 1.57rem;
 }
 
 section p {
-  margin-top: 19px;
   text-align: left;
 }
 
 .container h3 {
-  margin-top: 50px;
   font-size: 21px;
   line-height: 1.618em;
+  margin-bottom: 20px;
 }
 
-section img {
-  text-align: center;
+hr {
+  margin: 5px;
+}
+
+section {
+  margin-bottom: 65px;
 }
 
 
